@@ -1,0 +1,75 @@
+<set>
+  <tiles>
+<tile name="sprites/tiles_51" symmetry="X" weight="1.0"/>
+<tile name="sprites/tiles_35" symmetry="X" weight="1.0"/>
+<tile name="sprites/tiles_8" symmetry="X" weight="1.0"/>
+<tile name="sprites/tiles_88" symmetry="X" weight="1.0"/>
+<tile name="sprites/tiles_9" symmetry="X" weight="1.0"/>
+<tile name="sprites/tiles_34" symmetry="X" weight="1.0"/>
+<tile name="sprites/tiles_176" symmetry="X" weight="1.0"/>
+<tile name="sprites/tiles_241" symmetry="X" weight="1.0"/>
+<tile name="sprites/tiles_137" symmetry="X" weight="1.0"/>
+<tile name="sprites/tiles_133" symmetry="X" weight="1.0"/>
+<tile name="sprites/tiles_243" symmetry="X" weight="1.0"/>
+	</tiles>
+<neighbors>  <neighbor left="sprites/tiles_51 0" right="sprites/tiles_51 0"/>
+  <neighbor left="sprites/tiles_51 1" right="sprites/tiles_51 1"/>
+  <neighbor left="sprites/tiles_51 1" right="sprites/tiles_35 1"/>
+  <neighbor left="sprites/tiles_35 0" right="sprites/tiles_35 0"/>
+  <neighbor left="sprites/tiles_35 1" right="sprites/tiles_176 1"/>
+  <neighbor left="sprites/tiles_35 1" right="sprites/tiles_133 1"/>
+  <neighbor left="sprites/tiles_35 1" right="sprites/tiles_137 1"/>
+  <neighbor left="sprites/tiles_35 1" right="sprites/tiles_8 1"/>
+  <neighbor left="sprites/tiles_176 0" right="sprites/tiles_133 0"/>
+  <neighbor left="sprites/tiles_176 1" right="sprites/tiles_176 1"/>
+  <neighbor left="sprites/tiles_133 0" right="sprites/tiles_176 0"/>
+  <neighbor left="sprites/tiles_133 1" right="sprites/tiles_176 1"/>
+  <neighbor left="sprites/tiles_176 0" right="sprites/tiles_176 0"/>
+  <neighbor left="sprites/tiles_176 0" right="sprites/tiles_137 0"/>
+  <neighbor left="sprites/tiles_137 0" right="sprites/tiles_8 0"/>
+  <neighbor left="sprites/tiles_137 1" right="sprites/tiles_176 1"/>
+  <neighbor left="sprites/tiles_8 0" right="sprites/tiles_137 0"/>
+  <neighbor left="sprites/tiles_8 1" right="sprites/tiles_8 1"/>
+  <neighbor left="sprites/tiles_137 0" right="sprites/tiles_176 0"/>
+  <neighbor left="sprites/tiles_137 0" right="sprites/tiles_137 0"/>
+  <neighbor left="sprites/tiles_176 0" right="sprites/tiles_8 0"/>
+  <neighbor left="sprites/tiles_8 0" right="sprites/tiles_176 0"/>
+  <neighbor left="sprites/tiles_8 1" right="sprites/tiles_9 1"/>
+  <neighbor left="sprites/tiles_8 1" right="sprites/tiles_88 1"/>
+  <neighbor left="sprites/tiles_176 0" right="sprites/tiles_9 0"/>
+  <neighbor left="sprites/tiles_9 0" right="sprites/tiles_176 0"/>
+  <neighbor left="sprites/tiles_9 1" right="sprites/tiles_34 1"/>
+  <neighbor left="sprites/tiles_176 1" right="sprites/tiles_34 1"/>
+  <neighbor left="sprites/tiles_176 0" right="sprites/tiles_88 0"/>
+  <neighbor left="sprites/tiles_88 0" right="sprites/tiles_176 0"/>
+  <neighbor left="sprites/tiles_88 1" right="sprites/tiles_176 1"/>
+  <neighbor left="sprites/tiles_176 1" right="sprites/tiles_51 1"/>
+  <neighbor left="sprites/tiles_176 0" right="sprites/tiles_34 0"/>
+  <neighbor left="sprites/tiles_34 0" right="sprites/tiles_34 0"/>
+  <neighbor left="sprites/tiles_34 1" right="sprites/tiles_176 1"/>
+  <neighbor left="sprites/tiles_34 1" right="sprites/tiles_243 1"/>
+  <neighbor left="sprites/tiles_34 0" right="sprites/tiles_176 0"/>
+  <neighbor left="sprites/tiles_176 0" right="sprites/tiles_51 0"/>
+  <neighbor left="sprites/tiles_51 1" right="sprites/tiles_34 1"/>
+  <neighbor left="sprites/tiles_51 0" right="sprites/tiles_176 0"/>
+  <neighbor left="sprites/tiles_176 0" right="sprites/tiles_243 0"/>
+  <neighbor left="sprites/tiles_243 0" right="sprites/tiles_176 0"/>
+  <neighbor left="sprites/tiles_243 1" right="sprites/tiles_176 1"/>
+  <neighbor left="sprites/tiles_34 1" right="sprites/tiles_133 1"/>
+  <neighbor left="sprites/tiles_34 1" right="sprites/tiles_241 1"/>
+  <neighbor left="sprites/tiles_34 1" right="sprites/tiles_137 1"/>
+  <neighbor left="sprites/tiles_133 0" right="sprites/tiles_241 0"/>
+  <neighbor left="sprites/tiles_241 0" right="sprites/tiles_137 0"/>
+  <neighbor left="sprites/tiles_241 1" right="sprites/tiles_176 1"/>
+  <neighbor left="sprites/tiles_133 0" right="sprites/tiles_137 0"/>
+  <neighbor left="sprites/tiles_243 0" right="sprites/tiles_137 0"/>
+  <neighbor left="sprites/tiles_34 0" right="sprites/tiles_51 0"/>
+  <neighbor left="sprites/tiles_137 0" right="sprites/tiles_133 0"/>
+  <neighbor left="sprites/tiles_51 1" right="sprites/tiles_137 1"/>
+  <neighbor left="sprites/tiles_34 0" right="sprites/tiles_137 0"/>
+  <neighbor left="sprites/tiles_137 0" right="sprites/tiles_51 0"/>
+  <neighbor left="sprites/tiles_176 0" right="sprites/tiles_241 0"/>
+  <neighbor left="sprites/tiles_241 0" right="sprites/tiles_176 0"/>
+  <neighbor left="sprites/tiles_137 0" right="sprites/tiles_243 0"/>
+	</neighbors>
+</set>

@@ -36,10 +36,22 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Bandits - Pixel Art\Demo\Bandit.cs" />
+     <Compile Include="Assets\Bandits - Pixel Art\Demo\Sensor_Bandit.cs" />
      <Compile Include="Assets\LevelLoader.cs" />
      <Compile Include="Assets\MainMenu.cs" />
      <Compile Include="Assets\SetVolume.cs" />
      <Compile Include="Assets\SettiingsMenu.cs" />
+     <Compile Include="Assets\camerafollow.cs" />
+     <Compile Include="Assets\unity-wave-function-collapse\OverlapWFC.cs" />
+     <Compile Include="Assets\unity-wave-function-collapse\SimpleTiledWFC.cs" />
+     <Compile Include="Assets\unity-wave-function-collapse\TilePainter.cs" />
+     <Compile Include="Assets\unity-wave-function-collapse\Training.cs" />
+     <Compile Include="Assets\unity-wave-function-collapse\impl\Model.cs" />
+     <Compile Include="Assets\unity-wave-function-collapse\impl\OverlappingModel.cs" />
+     <Compile Include="Assets\unity-wave-function-collapse\impl\SimpleTiledModel.cs" />
+     <Compile Include="Assets\unity-wave-function-collapse\impl\Stuff.cs" />
+     <None Include="Assets\tiles.xml" />
     <Reference Include="UnityEngine">
         <HintPath>D:/Softwares/2019.4.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -657,6 +669,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="SimpleInput.Runtime.csproj">
+      <Project>{5a364f9a-f697-8f29-95ee-974cd0fd3ff7}</Project>
+      <Name>SimpleInput.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="SimpleInput.Editor.csproj">
+      <Project>{f7038310-e64e-7a78-d09c-910187542449}</Project>
+      <Name>SimpleInput.Editor</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
