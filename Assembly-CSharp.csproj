@@ -38,10 +38,14 @@
   <ItemGroup>
      <Compile Include="Assets\Bandits - Pixel Art\Demo\Bandit.cs" />
      <Compile Include="Assets\Bandits - Pixel Art\Demo\Sensor_Bandit.cs" />
+     <Compile Include="Assets\DoorScr.cs" />
      <Compile Include="Assets\LevelLoader.cs" />
      <Compile Include="Assets\MainMenu.cs" />
+     <Compile Include="Assets\PlayerCombat.cs" />
      <Compile Include="Assets\SetVolume.cs" />
      <Compile Include="Assets\SettiingsMenu.cs" />
+     <Compile Include="Assets\TimeCounter.cs" />
+     <Compile Include="Assets\VCollector.cs" />
      <Compile Include="Assets\camerafollow.cs" />
      <Compile Include="Assets\unity-wave-function-collapse\OverlapWFC.cs" />
      <Compile Include="Assets\unity-wave-function-collapse\SimpleTiledWFC.cs" />

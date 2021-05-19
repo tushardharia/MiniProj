@@ -49,6 +49,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_speed: 4
   m_jumpForce: 7.5
+  attackpoint: {fileID: 0}
+  attackrange: 0.5
+  enemyLayers:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!95 &95346456782871180
 Animator:
   serializedVersion: 3
